@@ -3,6 +3,14 @@
 ## Project Goal
 EduScoreAI is designed to predict student performance by analyzing exam scores and demographic details. It provides a predicted grade, helping teachers and institutions identify performance patterns and assist students who may be at risk.
 
+---
+
+
+---
+
+## Overview
+This project uses **Logistic Regression** to classify student grades based on input features such as gender, race/ethnicity, parental education, lunch type, test preparation, and exam scores.  
+The model was trained on a student performance dataset, evaluated using standard metrics, and deployed as a **Streamlit web app** for interactive use.
 
 ---
 
