@@ -5,12 +5,25 @@ EduScoreAI is designed to predict student performance by analyzing exam scores a
 
 ---
 
-
----
-
 ## Overview
 This project uses **Logistic Regression** to classify student grades based on input features such as gender, race/ethnicity, parental education, lunch type, test preparation, and exam scores.  
 The model was trained on a student performance dataset, evaluated using standard metrics, and deployed as a **Streamlit web app** for interactive use.
+
+---
+
+## Features
+- Predicts student grades (O, A, B, C, D, E).
+- Uses demographic, parental, and exam score data.
+- Pass/Fail detection for each subject.
+- Calculates total score, percentage, and overall status.
+- Interactive Streamlit UI for predictions.
+
+## Future Enhancements
+- Deploy on cloud (Streamlit Cloud, Render, or Heroku).
+- Add support for multiple models (Random Forest, Gradient Boosting).
+- Expand dataset for broader applicability.
+- Integrate performance insights dashboards.
+- Enable CSV bulk upload for multiple student predictions.
 
 ---
 
