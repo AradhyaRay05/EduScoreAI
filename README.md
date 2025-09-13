@@ -1,5 +1,7 @@
-# EduScoreAI
+# EduScoreAI - AI-powered student grade prediction
 
+## Project Goal
+EduScoreAI is designed to predict student performance by analyzing exam scores and demographic details. It provides a predicted grade, helping teachers and institutions identify performance patterns and assist students who may be at risk.
 
 
 ---
