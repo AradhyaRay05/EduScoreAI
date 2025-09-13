@@ -2,6 +2,18 @@
 
 
 
+---
+
+## 📌 How to Run Locally  
+
+```
+git clone https://github.com/AradhyaRay05/CarValuatorAI.git
+cd CarValuatorAI
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
 
 ## 📄 License
 
