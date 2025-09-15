@@ -34,6 +34,25 @@ The model was trained on a student performance dataset, evaluated using standard
 - Achieved strong generalization without overfitting.  
 - Saved the trained model (`model.pkl`) and scaler (`scaler.pkl`) for deployment.
 
+### 3. Evaluation Metrics
+- Evaluated on test data with the following results:  
+  - **Accuracy Score:** 0.82 (82%)  
+  - **Precision:** 0.81  
+  - **Recall:** 0.80  
+  - **F1-Score:** 0.80  
+- Confusion matrix shows reliable performance across multiple grade categories.
+
+### 4. Deployment
+- Built a **Streamlit web app** (`app.py`) for easy user interaction.  
+- Integrated the trained logistic regression model and scaler.  
+- Users can input details (demographics, scores) and get instant grade predictions.  
+- Features of the deployed app:
+  - Clean input interface with dropdowns and sliders.  
+  - Automated feature encoding and scaling.  
+  - Real-time prediction with grades (O, A, B, C, D, E).  
+- Ready for hosting on **Streamlit Cloud / Heroku / Render**.
+
+
 
 
 ## Features
