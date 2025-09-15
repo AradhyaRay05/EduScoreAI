@@ -52,7 +52,17 @@ The model was trained on a student performance dataset, evaluated using standard
   - Real-time prediction with grades (O, A, B, C, D, E).  
 - Ready for hosting on **Streamlit Cloud / Heroku / Render**.
 
+---
 
+## Tech Stack
+- **Python**
+- **NumPy** (mathematical operations)
+- **Pandas** (data manipulation)
+- **Matplotlib & Seaborn** (visualization)
+- **Scikit-learn** (Logistic Regression, scaling, evaluation)
+- **Streamlit** (deployment & UI)
+
+---
 
 
 ## Features
