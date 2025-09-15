@@ -11,6 +11,31 @@ The model was trained on a student performance dataset, evaluated using standard
 
 ---
 
+## Project Workflow
+
+### 1. Data Preprocessing
+- Removed null values and standardized the dataset.
+- Encoded categorical features:
+  - Gender  
+  - Race/Ethnicity  
+  - Parental Level of Education  
+  - Lunch  
+  - Test Preparation Course  
+- Added engineered features such as:
+  - **Pass/Fail per subject (Math, Reading, Writing)**  
+  - **Total Score**  
+  - **Percentage**  
+  - **Overall Pass/Fail status**  
+- Scaled features using **StandardScaler**.
+
+### 2. Model Building
+- Chose **Logistic Regression** due to its simplicity and interpretability.  
+- Trained the model on the processed dataset.  
+- Achieved strong generalization without overfitting.  
+- Saved the trained model (`model.pkl`) and scaler (`scaler.pkl`) for deployment.
+
+
+
 ## Features
 - Predicts student grades (O, A, B, C, D, E).
 - Uses demographic, parental, and exam score data.
